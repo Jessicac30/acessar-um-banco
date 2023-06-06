@@ -1,0 +1,27 @@
+<div class="container">
+  <h1 class="titulo">Catálogo de Livros</h1>
+  <table class="table">
+    <thead>
+      <tr class="tableHeader">
+        <th class="tableCell">Título</th>
+        <th class="tableCell">Resumo</th>
+        <th class="tableCell">Editora</th>
+        <th class="tableCell">Autores</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let livro of livros; let i = index" [ngClass]="{destaqueCinza: i % 2 === 0, destaqueBranco: i % 2 !== 0}">
+        <td class="tableTitulo">
+          <div class="tituloWrapper">
+            <h3 class="tituloLivro">{{livro.titulo}}</h3>
+            
+            <button *ngIf="livro.codigo" (click)="excluir(livro.codigo)" class="excluirButton">Excluir</button>
+          </div>
+        </td>
+        <td class="tableCell">{{livro.resumo}}</td>
+        <td class="tableCell">{{obterNome(livro.codEditora)}}</td>
+        <td class="tableCell">{{livro.autores.join(', ')}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

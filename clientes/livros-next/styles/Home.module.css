@@ -1,0 +1,54 @@
+.container {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+}
+
+.blackText {
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.table {
+  font-size: 14px;
+  color: #000000;
+}
+
+.destaqueCinza {
+  background-color: #f3f3f3;
+}
+
+.destaqueBranco {
+  background-color: #ffffff;
+}

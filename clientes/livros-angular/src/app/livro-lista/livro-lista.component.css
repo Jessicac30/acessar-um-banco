@@ -1,0 +1,75 @@
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100vw;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 10px;
+    border-right: 30px;
+    color: black;
+  }
+  
+  .tableCell {
+    padding: 8px;
+    color: black;
+    border-left: 10px;
+    border-right: 30px;
+  }
+  
+  .tableHeader th{
+    background-color: black;
+    color:white;
+  }
+  
+  .destaqueCinza {
+    background-color: #f3f3f3;
+  }
+  
+  .destaqueBranco {
+    background-color: #dcdcdc;
+  }
+  
+  .tableTitulo {
+    width: 20%;
+    padding: 8px;
+    font-size: 8px;
+  }
+  
+  .table-editora {
+    text-align: left;
+  }
+  
+  .table-resumo {
+    text-align: left;
+  }
+  
+  .table-autores {
+    text-align: left;
+  }
+  
+  .tableCell {
+    padding: 8px;
+    color: black;
+  }
+  
+  .excluirButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  

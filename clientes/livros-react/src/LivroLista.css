@@ -1,0 +1,64 @@
+
+  
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 10%
+  }
+ 
+   
+  tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dcdcdc;
+  }
+
+
+  table td {
+    font-size: 8px;
+  }
+  
+   
+  .livro-info button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 2px 2px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
+  
+  
+  .table-header {
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+  
+  .table-editora {
+    text-align: left;
+  }
+  
+  .table-resumo {
+    text-align: left;
+  }
+  
+  .table-autores {
+    text-align: left;
+  }
+
+  thead {
+    padding-left: 5px;
+  }
+  
+  
+  

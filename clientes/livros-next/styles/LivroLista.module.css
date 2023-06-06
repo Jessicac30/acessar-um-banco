@@ -1,0 +1,62 @@
+.container {
+  background-color: #ffffff;
+}
+
+.titulo {
+  font-size: 24px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  color: black;
+}
+
+.tableHeader th{
+  background-color: black;
+  color:white;
+}
+
+.destaqueCinza {
+  background-color: #f3f3f3;
+}
+
+.destaqueBranco {
+  background-color: #dcdcdc;
+}
+
+.tableTitulo {
+  width: 20%;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.table-editora {
+  text-align: left;
+}
+
+.table-resumo {
+  text-align: left;
+}
+
+.table-autores {
+  text-align: left;
+}
+.tableCell {
+  padding: 8px;
+  color: black;
+}
+
+.excluirButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+
+}
